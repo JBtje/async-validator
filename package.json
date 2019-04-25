@@ -39,6 +39,7 @@
     "gh-pages": "rc-tools run gh-pages",
     "start": "rc-tools run server",
     "pub": "rc-tools run pub --babel-runtime",
+    "watch": "rc-tools run watch --babel-runtime",
     "lint": "rc-tools run lint",
     "test": "jest",
     "coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
